@@ -1,0 +1,67 @@
+.container {
+  position: relative; /* Crucial for absolute positioning of the badge */
+  width: 300px; 
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 15px; 
+}
+
+.badge {
+  position: absolute; /* Position the badge within the container */
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  background-color: #f00; /* Red background */
+  color: #fff; 
+  border-radius: 3px; 
+  font-size: 12px;
+}
+
+.html-card {
+  box-shadow: 
+  0 0 2px #e44d26,
+  0 0 10px #e44d26,
+  0 0 20px #e44d26;
+}
+
+.css-card {
+  box-shadow: 
+  0 0 2px #2d53e5,
+  0 0 10px #2d53e5,
+  0 0 20px #2d53e5;
+}
+
+.js-card {
+  box-shadow: 
+  0 0 2px #f0dc55,
+  0 0 10px #f0dc55,
+  0 0 20px #f0dc55;
+}
+
+.ps-card {
+  box-shadow: 
+  0 0 2px #22a8ff,
+  0 0 10px #22a8ff,
+  0 0 20px #22a8ff;
+}
+
+.pr-card {
+  box-shadow: 
+  0 0 2px #9e9eff,
+  0 0 10px #9e9eff,
+  0 0 20px #9e9eff;
+}
+
+.ae-card {
+  box-shadow: 
+  0 0 2px #9e9eff,
+  0 0 10px #9e9eff,
+  0 0 20px #9e9eff;
+}
+
+.ai-card {
+  box-shadow: 
+  0 0 2px #ff9d07,
+  0 0 10px #ff9d07,
+  0 0 20px #ff9d07;
+}
